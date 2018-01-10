@@ -10,4 +10,13 @@
 
 <ion-content padding>
 
+  <button ion-button block color="primary" (click)="cambiarPagina()">
+    ir Pagina 2
+  </button>
+
+
+  <button ion-button block color="secundary" [navPush]="pagina2">
+      ir Pagina 2 HTML
+    </button>
+
 </ion-content>
