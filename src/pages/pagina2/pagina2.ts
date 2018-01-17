@@ -16,6 +16,8 @@ import {Pagina3Page} from "../pagina3/pagina3"
 })
 export class Pagina2Page {
 
+  pagina3:any = Pagina3Page;
+
   mutantes:any[] =[
     {
     nombre:"magneto",
