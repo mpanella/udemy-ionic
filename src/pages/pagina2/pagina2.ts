@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
-import {Pagina3Page} from "./../pagina3/pagina3"
+import {Pagina3Page} from "../pagina3/pagina3"
 /**
  * Generated class for the Pagina2Page page.
  *
@@ -16,15 +16,23 @@ import {Pagina3Page} from "./../pagina3/pagina3"
 })
 export class Pagina2Page {
 
-  mutantes:any[]=[{
+  mutantes:any[] =[
+    {
     nombre:"magneto",
-    poder:"controla metales"},
-    {nombre:"wolverine",
-    poder:"regeneracion"},
-    {nombre:"profesor x",
-    poder:"poderes psiquicos"},
-    {nombre:"gambito",
-    poder:"carga de energia objetos"}
+    poder:"controla metales"
+    },
+    {
+     nombre:"wolverine",
+     poder:"regeneracion"
+    },
+    {
+      nombre:"profesor x",
+      poder:"poderes psiquicos"
+    },
+    {
+      nombre:"gambito",
+      poder:"carga de energia objetos"
+    }
   ];
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
