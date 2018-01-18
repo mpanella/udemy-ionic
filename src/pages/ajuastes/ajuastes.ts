@@ -21,4 +21,8 @@ export class AjuastesPage {
     console.log('ionViewDidLoad AjuastesPage');
   }
 
+  activarPrincipal(){
+    this.navCtrl.parent.select(2);
+  }
+
 }
